@@ -1,0 +1,9 @@
+#Cycle
+
+def loopfib(n):
+      x=1
+      y=1
+      for i in range(n-2):
+            x,y= x+y,x
+      return x
+      
